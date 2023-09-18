@@ -14,12 +14,6 @@ max_number_episodes = 0;
 # creating instance of IMDb
 ia = imdb.IMDb() 
 
-#code = "1442437" # Modern Family id
-#code = "0417299" #Avatar id
-#code = "0944947" #GoT id
-#code = "0096697" #Simpsons
-#code = "5555260" #This is Us
-#code = "1695360"
 code = str(sys.argv[1])
 print("Code: " + code)
 
